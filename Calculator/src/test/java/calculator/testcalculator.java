@@ -20,7 +20,7 @@ public class testcalculator {
 
 	@Test
 		public void additionTest() {
-			assertEquals(24, objCalculator.addition(12,12));
+			assertEquals(22, objCalculator.addition(12,10));
 		}
 		public void substractionTest() {
 			assertEquals(1,objCalculator.substraction(12, 11));
